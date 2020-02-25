@@ -3,16 +3,5 @@
     <p contenteditable="true" spellcheck="false">kutoswiss</p>
   </div>
 </template>
-<style>
-@font-face {
-  font-family: 'Minipax';
-  src: url('../../assets/fonts/minipax/fonts/variable/Minipax Variable.ttf') format('truetype');
-}
-
-#font-editor {
-    background-color:linen;
-    font-family: Minipax;
-    font-size:30px;
-    height:80vh; 
-}
-</style>
+<script src="./FontEditor.js"></script>
+<style src="./FontEditor.css"></style>

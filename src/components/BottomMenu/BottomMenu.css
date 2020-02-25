@@ -1,0 +1,31 @@
+#bottom-menu {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#range-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+#dropdown-container {
+  display: flex;
+  flex-direction: row;
+}
+#font-list,
+#font-instances {
+  width: 200px;
+}
+.form-group-axis,
+.form-group-fontsize {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.form-group-dropdown {
+  margin-left: 10px;
+}
+label {
+  font-size: 12px;
+  font-weight: bold;
+}

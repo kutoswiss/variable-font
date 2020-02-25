@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Minipax';
+  src: url('../../assets/fonts/minipax.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Urbanist';
+  src: url('../../assets/fonts/urbanist.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Imbue';
+  src: url('../../assets/fonts/imbue.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Anybody';
+  src: url('../../assets/fonts/anybody.ttf') format('truetype');
+}
+
+#font-editor {
+    background-color:linen;
+    font-family: Anybody;
+    /* height:90vh; */
+    flex-grow: 1;
+    text-align: center;
+    overflow-x:hidden;
+}
+
+p {
+  font-size:100px;
+  width:100%;
+}
