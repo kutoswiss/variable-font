@@ -1,8 +1,8 @@
 #bottom-menu {
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 #range-container {
   flex-grow: 1;
@@ -12,10 +12,6 @@
 #dropdown-container {
   display: flex;
   flex-direction: row;
-}
-#font-list,
-#font-instances {
-  width: 200px;
 }
 .form-group-axis,
 .form-group-fontsize {
@@ -28,4 +24,41 @@
 label {
   font-size: 12px;
   font-weight: bold;
+}
+input[type='range']::-webkit-slider-thumb {
+  background-color: rgb(43, 43, 43);
+  outline:none;
+}
+input[type='range']::-moz-range-thumb {
+  background-color: rgb(43, 43, 43);
+  outline:none;
+}
+input[type='range']::-ms-thumb {
+  background-color: rgb(43, 43, 43);
+  outline:none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+#bottom-menu {
+  flex-direction: row;
+}
+#font-list,
+#font-instances {
+  min-width: 200px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
 }
