@@ -3,7 +3,12 @@ import $ from 'jquery';
 
 export default {
     name: 'FontEditor',
-    props: {
+    mounted() {
+        if (screen.width <= 576) {
+            $('#text').text('ktsw');
+        } else {
+            $('#text').text('kutoswiss');
+        }
     },
     created() {
         EventBus.$on('FONT_CHANGED', function (payload) {

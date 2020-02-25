@@ -1,5 +1,9 @@
 # variable-font
 
+![DemoGif](src/assets/demo-widescreen.gif)
+
+[Demo available here](https://kutoswiss.github.io/variable-font/)
+
 ## Project setup
 ```
 npm install

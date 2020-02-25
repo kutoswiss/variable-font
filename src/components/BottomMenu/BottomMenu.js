@@ -86,5 +86,6 @@ export default {
         var font = $('#font-list').val();
         this.loadAxes(font);
         this.loadInstances(font);
+        console.log(this.axes);
     }
 }
